@@ -1,0 +1,13 @@
+[
+{
+    "id": "idahoTimeline",
+    "title": "A Really Long, But Incomplete History of Idaho",
+    "focus_date": "1863-07-01 12:00",
+    "initial_zoom": "47",
+	"color": "#82530d",
+    "events":
+    [
+
+  {"title":"Brian Bark","start":"1995","end":"1995"},{"title":"Andy Barkett","start":"2001","end":"2001"},{"title":"Greg Briley","start":"1988","end":"1993"},{"title":"Jimmy Brown","start":"1937","end":"1946"},{"title":"Dick Burrus","start":"1919","end":"1928"},{"title":"Mike Caldwell","start":"1971","end":"1984"},{"title":"Roger Craig","start":"1955","end":"1966"},{"title":"Doug Davis","start":"1988","end":"1992"},{"title":"Joe DeBerry","start":"1920","end":"1921"},{"title":"Bill Evans","start":"1916","end":"1919"},{"title":"Adam Everett","start":"2001","end":null},{"title":"Stu Flythe","start":"1936","end":"1936"},{"title":"Jeff Hartsock","start":"1992","end":"1992"},{"title":"Dutch Holland","start":"1932","end":"1934"},{"title":"Fred Johnston","start":"1924","end":"1924"},{"title":"Johnny Lanning","start":"1936","end":"1947"},{"title":"Corey Lee","start":"1999","end":"1999"},{"title":"Jim McNamara","start":"1992","end":"1993"},{"title":"Louie Meadows","start":"1986","end":"1990"},{"title":"George Murray","start":"1922","end":"1933"},{"title":"Chink Outen","start":"1933","end":"1933"},{"title":"Jeff Pierce","start":"1995","end":"1995"},{"title":"Dan Plesac","start":"1986","end":"2003"},{"title":"Buck Redfern","start":"1928","end":"1929"},{"title":"Dave Robertson","start":"1912","end":"1922"},{"title":"Tommy Smith","start":"1973","end":"1977"},{"title":"Tim Stoddard","start":"1975","end":"1989"},{"title":"Doug Strange","start":"1989","end":"1998"},{"title":"Jake Wade","start":"1936","end":"1946"},{"title":"Kemp Wicker","start":"1936","end":"1941"},{"title":"Tracy Woodson","start":"1987","end":"1993"},{"title":"Chad Orvella","start":"2005","end":"2007"},{"title":"Joey Devine","start":"2005","end":"2008"},{"title":"Colt Morton","start":"2007","end":"2008"},{"title":"Aaron Bates","start":"2009","end":null}    ]
+}
+]
