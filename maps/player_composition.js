@@ -1,0 +1,1 @@
+var gdpData = {tx:88,ny:83,mi:45,co:6,oh:62,al:42,ga:35,id:6,pa:68,ms:17,dc:3,ma:34,sc:21,nc:39,az:7,ar:23,mn:16,tn:24,ca:271,ok:34,ks:8,in:26,me:1,wi:15,wv:8,fl:46,il:69,va:23,ct:13,ri:5,ia:11,ut:1,la:32,ky:16,mo:46,md:16,ne:10,wa:15,nh:6,de:2,nj:31,or:12,hi:4,vt:2,mt:1,nv:2,nm:4,sd:3,wy:3}
