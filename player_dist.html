@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>jVectorMap</title>
+  <link href="maps/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="maps/highlight.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="maps/jquery.vector-map.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="maps/jquery.js" type="text/javascript"></script>
+    <script src="maps/jquery.vector-map.js" type="text/javascript"></script>
+   <!-- <script src="maps/world-en.js" type="text/javascript"></script>-->
+    <script src="maps/usa-en.js" type="text/javascript"></script>
+   <script src="maps/player_composition.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+
+    var max = 0,
+    min = Number.MAX_VALUE,
+    cc,
+    startColor = [200, 238, 255],
+    endColor = [0, 100, 145],
+    colors = {},
+    hex;
+    
+   /* $.getJSON('http://192.168.2.18/proj/591/index.php', function(data){
+    	//console.log(data);
+    });*/
+      
+    
+//find maximum and minimum values
+for (cc in gdpData) {
+	cc = cc.toLowerCase();
+    if (parseInt(gdpData[cc]) > max) {
+        max = parseInt(gdpData[cc]);
+    }
+    if (parseInt(gdpData[cc]) < min) {
+        min = parseInt(gdpData[cc]);
+    }
+}
+//set colors according to values of GDP
+for (cc in gdpData) {
+	cc = cc.toLowerCase();
+    if (gdpData[cc] > 0) {
+        colors[cc] = '#';
+        for (var i = 0; i<3; i++) {
+            hex = Math.round(startColor[i] + (endColor[i] - startColor[i])*(gdpData[cc] / (max - min))).toString(16);
+            if (hex.length == 1) {
+                hex = '0'+hex;
+            }
+            colors[cc] += (hex.length == 1 ? '0' : '') + hex;
+        }
+    }
+}
+//initialize jVectorMap
+$('#usa-map').vectorMap({
+    values: gdpData,
+    normalizeFunction: 'polynomial',
+   onLabelShow: labels,
+    map: 'usa_en',
+    hoverOpacity: 0.7,
+    hoverColor: false
+});    
+  
+  });
+  
+function labels(event, label, code) {
+	//event.preventDefault();
+	label.text(code+':'+gdpData[code]);	
+}
+</script>
+ 
+</head>
+<body>
+    
+    <div id="content">
+
+<p><div id="usa-map"></div></p>
+    </div>
+</body>
+</html>
