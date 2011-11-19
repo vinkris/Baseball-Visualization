@@ -1,0 +1,8 @@
+var playerDist = [{tx:0,ny:0,mi:8,co:0,oh:0,al:0,ga:0,id:0,pa:0,ms:0,dc:0,ma:0,sc:0,nc:0,az:0,ar:0,mn:3,tn:0,ca:0,ok:0,ks:0,in:0,me:0,wi:0,wv:1,fl:0,il:0,va:5,ct:2,ri:0,ia:0,ut:0,la:0,ky:0,mo:0,md:0,ne:0,wa:0,nh:0,de:0,nj:0,or:0,hi:0,vt:0,mt:0,nv:0,nm:1,sd:0,wy:0},
+{tx:1,ny:0,mi:0,co:0,oh:0,al:10,ga:0,id:2,pa:0,ms:0,dc:1,ma:0,sc:0,nc:1,az:0,ar:0,mn:0,tn:4,ca:4,ok:2,ks:0,in:0,me:0,wi:0,wv:0,fl:3,il:0,va:0,ct:0,ri:0,ia:2,ut:0,la:0,ky:0,mo:0,md:2,ne:1,wa:0,nh:1,de:1,nj:2,or:0,hi:0,vt:0,mt:0,nv:0,nm:0,sd:0,wy:0},
+{tx:2,ny:0,mi:5,co:1,oh:10,al:0,ga:0,id:0,pa:2,ms:2,dc:0,ma:2,sc:0,nc:0,az:0,ar:0,mn:0,tn:0,ca:15,ok:0,ks:1,in:4,me:0,wi:0,wv:0,fl:5,il:5,va:3,ct:0,ri:0,ia:0,ut:0,la:4,ky:0,mo:2,md:0,ne:0,wa:1,nh:0,de:0,nj:0,or:2,hi:1,vt:1,mt:1,nv:0,nm:0,sd:0,wy:0},
+{tx:0,ny:0,mi:0,co:1,oh:0,al:0,ga:2,id:2,pa:1,ms:0,dc:0,ma:2,sc:2,nc:0,az:0,ar:0,mn:1,tn:0,ca:16,ok:0,ks:0,in:0,me:1,wi:1,wv:1,fl:0,il:0,va:0,ct:0,ri:0,ia:1,ut:1,la:0,ky:1,mo:0,md:1,ne:2,wa:0,nh:1,de:0,nj:0,or:0,hi:0,vt:0,mt:0,nv:0,nm:0,sd:1,wy:0},
+{tx:0,ny:6,mi:0,co:0,oh:0,al:0,ga:4,id:0,pa:0,ms:0,dc:0,ma:0,sc:0,nc:1,az:1,ar:0,mn:0,tn:0,ca:0,ok:0,ks:0,in:0,me:0,wi:1,wv:0,fl:11,il:0,va:2,ct:4,ri:0,ia:0,ut:0,la:4,ky:2,mo:1,md:3,ne:0,wa:2,nh:0,de:0,nj:4,or:2,hi:1,vt:0,mt:0,nv:0,nm:2,sd:0,wy:0},
+{tx:0,ny:0,mi:1,co:1,oh:0,al:0,ga:0,id:1,pa:0,ms:1,dc:1,ma:0,sc:0,nc:3,az:0,ar:3,mn:0,tn:1,ca:1,ok:2,ks:1,in:0,me:0,wi:0,wv:0,fl:0,il:0,va:0,ct:0,ri:1,ia:0,ut:0,la:1,ky:0,mo:0,md:0,ne:0,wa:0,nh:1,de:0,nj:0,or:0,hi:0,vt:0,mt:0,nv:2,nm:0,sd:2,wy:0},
+{tx:0,ny:0,mi:0,co:0,oh:0,al:3,ga:0,id:0,pa:0,ms:0,dc:0,ma:0,sc:0,nc:0,az:2,ar:0,mn:2,tn:0,ca:0,ok:0,ks:0,in:0,me:0,wi:0,wv:0,fl:0,il:0,va:2,ct:0,ri:0,ia:0,ut:0,la:0,ky:0,mo:0,md:0,ne:0,wa:3,nh:0,de:0,nj:0,or:0,hi:0,vt:0,mt:0,nv:0,nm:0,sd:0,wy:0}
+];
