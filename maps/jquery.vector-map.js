@@ -311,7 +311,7 @@
 		for(var key in mapData.pathes) {
 			var path = this.canvas.createPath({path: mapData.pathes[key].path});
 			path.setFill(this.color);
-			path.id = 'jvectormap'+map.index+'_'+key;
+			path.id = 'jvectormap'+'_'+key;
 			map.countries[key] = path;
 			$(this.rootGroup).append(path);
 		}
